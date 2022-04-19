@@ -42,7 +42,7 @@ export default function Clickable() {
             >
               <a.div
                 className={`${
-                  toggle === true ? "opacity-50" : "opacity-100"
+                  toggle === true ? "opacity-100" : "opacity-50"
                 } text-3xl md:text-5xl lg:text-4xl`}
               >
                 {items[index]}

@@ -1,4 +1,5 @@
 import ScrollAnimation from "react-animate-on-scroll";
+import { Link } from "react-router-dom"
 
 export default function HomeCta() {
   return (
@@ -13,12 +14,12 @@ export default function HomeCta() {
             </span>
           </h2>
 
-          <a
+          <Link
             href="/contact"
             className="text-gray-900 hover:bg-gray-200 hover:text-gray-900 px-3 py-2 rounded-md text-xs uppercase cursor-pointer"
           >
             Entrer en contact{" "}
-          </a>
+          </Link>
         </ScrollAnimation>
       </div>
     </div>
