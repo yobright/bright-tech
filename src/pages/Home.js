@@ -5,7 +5,6 @@ import HomeCta from '../components/CTA/HomeCta';
 import Form from '../components/Form/Form';
 import Hero from '../components/Hero'
 import Skills from '../components/Skills'
-import { Link } from 'react-router-dom'
 function Home() {
   
   return (
