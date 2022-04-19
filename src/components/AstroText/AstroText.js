@@ -4,7 +4,7 @@ import "./astrotext.css";
 function AstroText() {
   return (
     <div>
-      <div className="logo is-animetion text-green-400 font-semibold text-xs">
+      <div className="logo is-animetion text-red-400 font-semibold text-xs">
         <span>A</span>
         <span>S</span>
         <span>T</span>

@@ -9,11 +9,31 @@ function App() {
   return (
     <div className="App">
       <Routes>
-        <Route exact path="/" element={<Layout>
-             <Home />
-          </Layout>} />
-        <Route path="/astro" element={<Layout><Astro /></Layout>} />
-        <Route path="/contact" element={<Layout><Contact /></Layout>} />
+        <Route
+          exact
+          path="/"
+          element={
+            <Layout>
+              <Home />
+            </Layout>
+          }
+        />
+        <Route
+          path="/astro"
+          element={
+            <Layout>
+              <Astro />
+            </Layout>
+          }
+        />
+        <Route
+          path="/contact"
+          element={
+            <Layout>
+              <Contact />
+            </Layout>
+          }
+        />
       </Routes>
     </div>
   );

@@ -22,7 +22,7 @@ export default function Clickable() {
 
   return (
     <div className="p-6 mb-8">
-      <span className="text-gray-900 bg-gray-200 px-3 py-2 rounded-md text-xs uppercase cursor-pointer">
+      <span className="text-gray-900 bg-gray-200 px-2 py-1 rounded-md text-xs uppercase cursor-pointer">
         Services{" "}
       </span>
 
@@ -43,7 +43,7 @@ export default function Clickable() {
               <a.div
                 className={`${
                   toggle === true ? "opacity-50" : "opacity-100"
-                } text-3xl md:text-6xl lg:text-5xl`}
+                } text-3xl md:text-5xl lg:text-4xl`}
               >
                 {items[index]}
               </a.div>
