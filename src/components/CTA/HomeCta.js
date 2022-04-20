@@ -15,7 +15,7 @@ export default function HomeCta() {
           </h2>
 
           <Link
-            href="/contact"
+            to="/contact"
             className="text-gray-900 hover:bg-gray-200 hover:text-gray-900 px-3 py-2 rounded-md text-xs uppercase cursor-pointer"
           >
             Entrer en contact{" "}
