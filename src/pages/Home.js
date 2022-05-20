@@ -2,7 +2,6 @@ import React from 'react'
 import AstroCard from '../components/AstroText/AstroCard';
 import Clickable from '../components/Clickable';
 import HomeCta from '../components/CTA/HomeCta';
-import Form from '../components/Form/Form';
 import Hero from '../components/Hero'
 import Skills from '../components/Skills'
 function Home() {
@@ -17,8 +16,7 @@ function Home() {
         picture="bg-[url('https://astrostorebucket.s3.eu-west-3.amazonaws.com/brighttech/logo-black-bg.png')] bg-center h-80"
         title="Astro"
         description="Astro est un détaillant de mode en ligne basé à Abidjan. Spécialisée dans les vêtements, les accessoires, les chaussures et produit de beauté. Une expérience plus optimisée et un catalogue plus varié en un clic sans besoin de se déplacer !"
-        linkTo="/astro"
-        linkContent="En savoir plus"
+        
       />
       <AstroCard
         cardOrientation="lg:grid-cols-2"
@@ -35,7 +33,6 @@ function Home() {
         linkExtContent="Voir le site"
       />
       <HomeCta />
-      <Form />
     </div>
   );
 }

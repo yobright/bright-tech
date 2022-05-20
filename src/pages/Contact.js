@@ -31,6 +31,7 @@ function Contact() {
             Abidjan, Côte d'Ivoire <br />
             (225) 07-897-381-86
             <br />
+            
           </p>
         </div>
       </ScrollAnimation>

@@ -1,6 +1,4 @@
-import { Fragment } from "react";
-import { Disclosure, Menu } from "@headlessui/react";
-import AstroText from "./AstroText/AstroText";
+import { Disclosure } from "@headlessui/react";
 import { Link } from "react-router-dom";
 
 const navigation = [{ name: "Contact", href: "/contact", current: false }];
@@ -55,17 +53,7 @@ export default function Header() {
                   </div>
                 </div>
               </div>
-              <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
-                {/* Profile dropdown */}
-                <Menu as="div" className="ml-3 relative">
-                  <Link
-                    to="/astro"
-                    className="hover:bg-gray-200 hover:text-gray-900 flex px-2 py-1 rounded-md focus:outline-none cursor"
-                  >
-                    <AstroText />
-                  </Link>
-                </Menu>
-              </div>
+                      
             </div>
           </div>
         </>
