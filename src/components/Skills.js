@@ -6,7 +6,7 @@ function Skills() {
   const [setInView] = React.useState(false);
 
   return (
-    <div className="bg-black text-white">
+    <div className="bg-black text-white ">
       <div className="text-center min-h-screen max-w-5xl mx-auto px-6 lg:px-18 py-24 md:py-28 lg:py-20 flex flex-col text-4xl md:text-6xl lg:text-7xl sm:text-7xl font-semibold ">
         <div className="">
           <InView onChange={setInView} threshold={1}>
@@ -15,7 +15,7 @@ function Skills() {
                 <span
                   ref={ref}
                   className={`${
-                    inView === true ? "opacity-100" : "opacity-25"
+                    inView === true ? "opacity-100" : "opacity-10"
                   } `}
                 >
                   Nous connaissons parfaitement nos outils.
@@ -28,7 +28,9 @@ function Skills() {
               <ScrollAnimation animateIn="fadeIn" animateOut="fadeOut">
                 <span
                   ref={ref}
-                  className={`${inView === true ? "opacity-75" : "opacity-25"}`}
+                  className={`${
+                    inView === true ? "opacity-75" : "opacity-10"
+                  } leading-normal`}
                 >
                   {" "}
                   Qu'il s'agisse d'une application destinée au grand public ou
@@ -42,7 +44,9 @@ function Skills() {
               <ScrollAnimation animateIn="fadeIn" animateOut="fadeOut">
                 <span
                   ref={ref}
-                  className={`${inView === true ? "opacity-75" : "opacity-25"}`}
+                  className={`${
+                    inView === true ? "opacity-75" : "opacity-10"
+                  } leading-normal`}
                 >
                   {" "}
                   nous dirigeons le processus, de l'idéation et du concept à la
@@ -57,10 +61,11 @@ function Skills() {
                 <span
                   ref={ref}
                   className={`${
-                    inView === true ? "opacity-100" : "opacity-25"
+                    inView === true ? "opacity-100" : "opacity-10"
                   } text-red-200`}
                 >
                   {" "}
+                  <br />
                   Les expériences utilisateur de qualité sont intuitives.
                 </span>
               </ScrollAnimation>
@@ -71,7 +76,9 @@ function Skills() {
               <ScrollAnimation animateIn="fadeIn" animateOut="fadeOut">
                 <span
                   ref={ref}
-                  className={`${inView === true ? "opacity-75" : "opacity-25"}`}
+                  className={`${
+                    inView === true ? "opacity-75" : "opacity-10"
+                  } leading-normal`}
                 >
                   {" "}
                   Nous nous rapprochons de vos clients pour savoir ce dont ils

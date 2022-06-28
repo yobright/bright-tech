@@ -1,15 +1,25 @@
 import React from 'react'
 import AstroCard from '../components/AstroText/AstroCard';
+import Blog from '../components/Blog/Blog';
 import Clickable from '../components/Clickable';
 import HomeCta from '../components/CTA/HomeCta';
 import Hero from '../components/Hero'
 import HomeServices from '../components/HomeServices';
+import Show from '../components/Publicity/Show';
+import Show2 from '../components/Publicity/Show2';
+import Show3 from '../components/Publicity/Show3';
+import Services from '../components/Services';
 import Skills from '../components/Skills'
 function Home() {
   
   return (
     <div>
       <Hero />
+      <Clickable />
+      <Services />
+      <Show/>
+      <Show2/>
+      <Show3/>
       <Skills />
       <HomeServices />
       <AstroCard
@@ -33,8 +43,7 @@ function Home() {
         linkExtContent="Voir le site"
       />
       <HomeCta />
-
-      <Clickable />
+      <Blog/>
     </div>
   );
 }
