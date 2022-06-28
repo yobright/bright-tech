@@ -16,7 +16,7 @@ function Skills() {
                   ref={ref}
                   className={`${
                     inView === true ? "opacity-100" : "opacity-25"
-                  }`}
+                  } `}
                 >
                   Nous connaissons parfaitement nos outils.
                 </span>
