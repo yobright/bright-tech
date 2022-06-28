@@ -20,7 +20,6 @@ function Hero() {
               construire des produits numériques à partir de zéro.
             </h2>
           </ScrollAnimation>
-          
         </div>
       </div>
     </div>
