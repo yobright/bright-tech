@@ -1,6 +1,5 @@
 import React from "react";
 import TextLoop from "react-text-loop";
-import { Link } from "react-router-dom";
 import  ScrollAnimation  from "react-animate-on-scroll";
 
 function Hero() {

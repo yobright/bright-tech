@@ -106,7 +106,7 @@ function Footer() {
                 <nav class="flex flex-col mt-4 space-y-2 text-sm text-gray-300">
                   <a
                     class="hover:bg-gray-900 hover:text-gray-300 px-2 py-1 rounded-md text-xs font-medium uppercase cursor-pointer"
-                    href=""
+                    href="/contact"
                   >
                     {" "}
                     Contact{" "}
@@ -134,28 +134,28 @@ function Footer() {
                 <nav class="flex flex-col mt-4 space-y-2 text-sm text-gray-300">
                   <a
                     class="hover:bg-gray-800 hover:text-gray-300 px-2 py-1 rounded-md text-xs font-medium uppercase cursor-pointer"
-                    href=""
+                    href="#"
                   >
                     {" "}
                     Enginnering & Design{" "}
                   </a>
                   <a
                     class="hover:bg-gray-900 hover:text-gray-300 px-2 py-1 rounded-md text-xs font-medium uppercase cursor-pointer"
-                    href=""
+                    href="#"
                   >
                     {" "}
                     Big Data & Analytics{" "}
                   </a>
                   <a
                     class="hover:bg-gray-900 hover:text-gray-300 px-2 py-1 rounded-md text-xs font-medium uppercase cursor-pointer"
-                    href=""
+                    href="#"
                   >
                     {" "}
                     AI & ML{" "}
                   </a>
                   <a
                     class="hover:bg-gray-900 hover:text-gray-300 px-2 py-1 rounded-md text-xs font-medium uppercase cursor-pointer"
-                    href=""
+                    href="#"
                   >
                     {" "}
                     Customer Experience{" "}
@@ -168,11 +168,11 @@ function Footer() {
           <div class="pt-12 mt-12 border-t border-gray-800">
             <div class="text-sm text-gray-300 sm:items-center sm:justify-between sm:flex">
               <div class="flex space-x-3">
-                <a class="hover:opacity-75" href="">
+                <a class="hover:opacity-75" href="#">
                   {" "}
                   Politique de confidentialité{" "}
                 </a>
-                <a class="hover:opacity-75" href="">
+                <a class="hover:opacity-75" href="#">
                   {" "}
                   Conditions générales d'utilisation{" "}
                 </a>
