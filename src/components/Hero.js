@@ -7,7 +7,7 @@ function Hero() {
     <div className="py-20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="lg:text-justify">
-          <ScrollAnimation animateIn="fadeIn" animateOut="fadeOut">
+          <ScrollAnimation animateIn="fadeIn">
             <h2 className="tracking-tight text-gray-900 sm:text-6xl text-4xl ">
               Le meilleur <br />
               <TextLoop springConfig={{ stiffness: 80, damping: 10 }}>

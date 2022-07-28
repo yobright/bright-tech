@@ -1,9 +1,15 @@
-import { Fragment } from "react";
-import { Disclosure, Menu } from "@headlessui/react";
-import AstroText from "./AstroText/AstroText";
+import { Disclosure } from "@headlessui/react";
 import { Link } from "react-router-dom";
 
-const navigation = [{ name: "Contact", href: "/contact", current: false }];
+const navigation = [
+  {
+    name: "Contact",
+    href: "/contact",
+    current: false,
+  },
+];
+
+
 
 export default function Header() {
   return (
@@ -12,20 +18,20 @@ export default function Header() {
         <>
           <div className="max-w-7xl mx-auto px-0 sm:px-4 lg:px-4">
             <div className="relative flex items-center justify-between h-16">
-              <div className="absolute flex ml-4 sm:hidden">
+              <div className="absolute flex ml-2 sm:hidden">
                 {/* Mobile menu button*/}
                 {navigation.map((item) => (
                   <Link
                     to={item.href}
                     key={item.name}
-                    className="text-gray-900 hover:bg-gray-200 hover:text-gray-900 px-2 py-1 rounded-md text-xs font-medium uppercase cursor-pointer"
+                    className="text-gray-900 hover:bg-gray-200 hover:text-red-700 hover:font-bold px-2 py-1 rounded-md border text-xs font-medium uppercase cursor-pointer"
                   >
                     {item.name}
                   </Link>
                 ))}
               </div>
-              <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
-                <div className="flex-shrink-0 flex items-center">
+              <div className="flex-1 flex items-center justify-center  sm:items-stretch sm:justify-start">
+                <div className="flex-shrink-0 flex items-center ">
                   <Link to="/">
                     <img
                       className="block lg:hidden h-8 w-auto"
@@ -41,30 +47,19 @@ export default function Header() {
                     />
                   </Link>
                 </div>
-                <div className="hidden sm:block sm:ml-6">
+                <div className="hidden sm:block sm:ml-16">
                   <div className="flex space-x-4">
                     {navigation.map((item) => (
                       <Link
                         to={item.href}
                         key={item.name}
-                        className="text-gray-900 hover:bg-gray-200 hover:text-gray-900 px-2 py-1 rounded-md text-xs font-medium uppercase cursor-pointer"
+                        className="text-gray-900 hover:font-bold border hover:bg-gray-200 hover:text-red-700 px-2 py-1 rounded-md text-xs font-medium uppercase cursor-pointer"
                       >
                         {item.name}
                       </Link>
                     ))}
                   </div>
                 </div>
-              </div>
-              <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
-                {/* Profile dropdown */}
-                <Menu as="div" className="ml-3 relative">
-                  <Link
-                    to="/astro"
-                    className="hover:bg-gray-200 hover:text-gray-900 flex px-2 py-1 rounded-md focus:outline-none cursor"
-                  >
-                    <AstroText />
-                  </Link>
-                </Menu>
               </div>
             </div>
           </div>
