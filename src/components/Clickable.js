@@ -3,8 +3,8 @@ import ScrollAnimation from "react-animate-on-scroll";
 
 export default function Clickable() {
   return (
-    <div className="py-20">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div className="py-8">
+      <div className="max-w-7xl after:mx-auto px-4 sm:px-6 lg:px-8">
         <div className="lg:text-justify">
           <ScrollAnimation animateIn="fadeIn">
             <span className="relative inline-block">
@@ -32,7 +32,7 @@ export default function Clickable() {
               </svg>
             </span>{" "}
             <span className="relative"></span>
-            <h2 className="tracking-tight text-gray-900 sm:text-6xl text-4xl relative">
+            <h2 className="tracking-tight text-gray-900 sm:text-5xl text-2xl relative">
               <span className="font-semibold text-red-500 ">Bright Tech</span> est une agence
               de conception UI/UX et de branding à Abidjan.
             </h2>

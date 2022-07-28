@@ -1,96 +1,121 @@
-import React from 'react'
+import React from "react";
 
 function Services() {
   return (
-    <div className="bg-gray-900">
-      <div className="relative px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
-        <div className="absolute inset-x-0 top-0 items-center justify-center hidden overflow-hidden md:flex md:inset-y-0">
-          <svg
-            viewBox="0 0 88 88"
-            className="w-full max-w-screen-xl text-gray-800"
-          >
-            <circle
-              fill="currentColor"
-              fillOpacity="0.4"
-              cx="44"
-              cy="44"
-              r="15.5"
-            />
-            <circle
-              fillOpacity="0.1"
-              fill="currentColor"
-              cx="44"
-              cy="44"
-              r="44"
-            />
-            <circle
-              fillOpacity="0.1"
-              fill="currentColor"
-              cx="44"
-              cy="44"
-              r="37.5"
-            />
-            <circle
-              fillOpacity="0.1"
-              fill="currentColor"
-              cx="44"
-              cy="44"
-              r="29.5"
-            />
-            <circle
-              fillOpacity="0.1"
-              fill="currentColor"
-              cx="44"
-              cy="44"
-              r="22.5"
-            />
-          </svg>
+    <div>
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h1 className="mb-4 text-xl">
+          Nous aimons travailler avec des personnes qui résolvent les problèmes.{" "}
+          <br />
+        </h1>
+        <div className="max-w-4xl mb-6 mx-auto">
+          <p className="text-xl ">
+            Pour parvenir aux meilleures réponses, il faut du travail ; des
+            moments d'illumination et des améliorations progressives, de la
+            science et de la logique et des intuitions inspirées.
+            <br />
+            Peu importe d'où naissent les bonnes idées, nous vous aidons à y
+            parvenir.
+          </p>
         </div>
-        <div className="relative grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
-          <div className="px-10 py-20 text-center transition duration-300 transform bg-gray-900 rounded shadow-2xl hover:scale-105 md:shadow-xl hover:shadow-2xl">
-            <p className="font-semibold text-gray-200">
-              Sed ut perspiciatis unde omnis iste
+        <div class="bg-white border-gray-200 divide-y divide-gray-200 rounded-xl">
+          <details class="p-6 group">
+            <summary class="flex items-center justify-between cursor-pointer">
+              <h5 class="text-lg font-medium text-gray-900">
+                Lorem ipsum dolor sit amet consectetur adipisicing?
+              </h5>
+
+              <span class="relative flex-shrink-0 ml-1.5 w-5 h-5">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="absolute inset-0 w-5 h-5 opacity-100 group-open:opacity-0"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z"
+                  />
+                </svg>
+
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="absolute inset-0 w-5 h-5 opacity-0 group-open:opacity-100"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M15 12H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z"
+                  />
+                </svg>
+              </span>
+            </summary>
+
+            <p class="mt-4 leading-relaxed text-gray-700">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab hic
+              veritatis molestias culpa in, recusandae laboriosam neque aliquid
+              libero nesciunt voluptate dicta quo officiis explicabo
+              consequuntur distinctio corporis earum similique!
             </p>
-          </div>
-          <div className="px-10 py-20 text-center transition duration-300 transform bg-gray-900 rounded shadow-2xl hover:scale-105 md:shadow-xl hover:shadow-2xl">
-            <p className="font-semibold text-gray-200">
-              Well, the way they make shows is
+          </details>
+
+          <details class="p-6 group">
+            <summary class="flex items-center justify-between cursor-pointer">
+              <h5 class="text-lg font-medium text-gray-900">
+                Lorem ipsum dolor sit amet consectetur adipisicing?
+              </h5>
+
+              <span class="relative flex-shrink-0 ml-1.5 w-5 h-5">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="absolute inset-0 w-5 h-5 opacity-100 group-open:opacity-0"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z"
+                  />
+                </svg>
+
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="absolute inset-0 w-5 h-5 opacity-0 group-open:opacity-100"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M15 12H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z"
+                  />
+                </svg>
+              </span>
+            </summary>
+
+            <p class="mt-4 leading-relaxed text-gray-700">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab hic
+              veritatis molestias culpa in, recusandae laboriosam neque aliquid
+              libero nesciunt voluptate dicta quo officiis explicabo
+              consequuntur distinctio corporis earum similique!
             </p>
-          </div>
-          <div className="px-10 py-20 text-center transition duration-300 transform bg-gray-900 rounded shadow-2xl hover:scale-105 md:shadow-xl hover:shadow-2xl">
-            <p className="font-semibold text-gray-200">
-              Some don't, become nothing again
-            </p>
-          </div>
-          <div className="px-10 py-20 text-center transition duration-300 transform bg-gray-900 rounded shadow-2xl hover:scale-105 md:shadow-xl hover:shadow-2xl">
-            <p className="font-semibold text-gray-200">
-              Pommy ipsum smeg head whizz morris
-            </p>
-          </div>
-          <div className="px-10 py-20 text-center transition duration-300 transform bg-gray-900 rounded shadow-2xl hover:scale-105 md:shadow-xl hover:shadow-2xl">
-            <p className="font-semibold text-gray-200">
-              Taking the mick middle class bog
-            </p>
-          </div>
-          <div className="px-10 py-20 text-center transition duration-300 transform bg-gray-900 rounded shadow-2xl hover:scale-105 md:shadow-xl hover:shadow-2xl">
-            <p className="font-semibold text-gray-200">
-              Sportacus andrew weatherall goose
-            </p>
-          </div>
-          <div className="px-10 py-20 text-center transition duration-300 transform bg-gray-900 rounded shadow-2xl hover:scale-105 md:shadow-xl hover:shadow-2xl">
-            <p className="font-semibold text-gray-200">
-              Semi beard cream bun disaster alpha
-            </p>
-          </div>
-          <div className="px-10 py-20 text-center transition duration-300 transform bg-gray-900 rounded shadow-2xl hover:scale-105 md:shadow-xl hover:shadow-2xl">
-            <p className="font-semibold text-gray-200">
-              Bro ipsum dolor sit amet gaper dart
-            </p>
-          </div>
+          </details>
         </div>
       </div>
     </div>
   );
 }
 
-export default Services
+export default Services;

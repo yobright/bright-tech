@@ -16,6 +16,7 @@ function Home() {
     <div>
       <Hero />
       <Clickable />
+      <Services />
       <Show/>
       <Show2/>
       <Show3/>
